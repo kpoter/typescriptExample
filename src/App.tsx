@@ -1,12 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import * as dotenv from 'dotenv';
 
-dotenv.config();
 
 function App() {
-  console.log("test", process.env.API_KEY);
   return (
     <div className="App">
       <header className="App-header">
