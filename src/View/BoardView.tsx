@@ -24,7 +24,7 @@ export const BoardView = () => {
             <tbody>
                 <tr>
                     <tr>{viewData?.seq}</tr>
-                    <th>{viewData?.nm}</th>
+                    <th>{isEmpty(viewData?.nm)}</th>
                 </tr>
             </tbody>
         </table>
