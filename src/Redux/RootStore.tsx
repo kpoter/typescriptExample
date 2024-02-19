@@ -3,7 +3,7 @@ import { createStateSyncMiddleware } from 'redux-state-sync';
 import { configureStore } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage";
 import { persistReducer, persistStore } from "redux-persist";
-import { Middleware } from '@reduxjs/toolkit'; // 필요에 따라 경로를 조정하세요.
+import { Middleware } from '@reduxjs/toolkit';
 import ThemaReducer from "./Reducers/ThemaReducer";
 
 
