@@ -1,12 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 type viewDataType = {
     seq?: number,
     nm?: string,
 }
-
-
 
 export const BoardView = () => {
 
@@ -24,7 +22,8 @@ export const BoardView = () => {
             <tbody>
                 <tr>
                     <tr>{viewData?.seq}</tr>
-                    <th>{isEmpty(viewData?.nm)}</th>
+                    {/* <th>{isEmpty(viewData?.nm)}</th> */}
+                    <th>{viewData?.nm}</th>
                 </tr>
             </tbody>
         </table>
