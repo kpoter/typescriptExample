@@ -6,6 +6,7 @@ type viewDataType = {
     nm?: string,
 }
 
+/** 임시화면 (프론트 환경셋팅 후 개발) */
 export const BoardView = () => {
 
     const [viewData, set_viewData] = useState<viewDataType>();
